@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@mipmap/spl_bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:id="@+id/rela"
+        android:paddingTop="170dp"
+        >
+
+        <ImageView
+            android:id="@+id/lg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+           android:layout_alignParentBottom="true"
+            android:src="@mipmap/logo" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rela"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lucida_console_regular"
+        android:shadowColor="#A96A6A6A"
+        android:shadowDx="0"
+        android:shadowDy="10"
+        android:shadowRadius="20"
+        android:text="WALLPAPER"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/andalus_regular"
+        android:text="Unlimited Wallpapers"
+        android:textColor="#F9F9F9"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
